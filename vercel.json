@@ -1,7 +1,9 @@
 {
-  "buildCommand": "GENERATE_SOURCEMAP=false npm run build",
+  "buildCommand": "npm run build",
   "installCommand": "npm install",
   "framework": "create-react-app",
-  "nodeVersion": "20",
-  "outputDirectory": "build"
+  "outputDirectory": "build",
+  "env": {
+    "CI": "false"
+  }
 }
